@@ -1,0 +1,125 @@
+@media (min-width:768px) and (max-width: 1023px) {
+
+    .heroes {
+
+
+        & .hero {
+
+
+            &__content {
+
+
+                & .hero__description {
+                    padding: 32px 0;
+                    & .hero__title {
+                        display: none;
+                    }
+
+                    & .hero__title__mobile {
+                        display: block;
+                        font-size: 42px;
+                        line-height: 25px;
+                        font-weight: 400;
+                        color: #ffffff;
+                    }
+
+                    & .hero__text {
+                        width: 52%;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: 400;
+                        color: #cccccc;
+                    }
+
+                    & .hero__button {
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        width: 200px;
+                        height: 60px;
+                        background-color: #dc4041;
+                        border-radius: 30px;
+                    }
+                }
+
+
+                & .hero__img {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+            }
+
+
+
+
+
+            & #faq {
+
+
+
+                & .faq__list {
+
+                    &__btn {
+                        margin-left: 70%;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+    .footer {
+
+        &__content {
+
+
+
+            & .companies {
+                margin-top: 50px;
+
+                & .company {
+                    width: 30%;
+                }
+            }
+
+            & .all__rights {
+           gap: 0;
+           flex-wrap: wrap;
+           justify-content: center;
+
+                & .footer__logo {
+                    width: 100%;
+                    align-items: center;
+                    gap: 26px;
+                    margin: 30px 0 26px;
+
+                    & a{
+                        width: auto;
+                        // & img{
+                        //     width: -webkit-fill-available;
+                        // }
+                    }
+
+                    & p {
+                        width: 190px;
+                        
+                    }
+                }
+
+                & .footer__text {
+                   width: 80%;
+                   margin-bottom: 80px;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+@import 'header/m_header.scss';
+@import 'promo/m_promo.scss';
+@import 'heroes/m_heroes.scss';
+@import 'footer/m_footer.scss';
+
+}

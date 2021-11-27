@@ -1,0 +1,39 @@
+
+    .header {
+        background-color: #0d0d0d;
+
+        & .header__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100px;
+
+            & .header__logo,
+            .header__login,
+            .header__bonuses {
+                display: none;
+            }
+
+            & .header__mobile {
+                display: block;
+                width: 100%;
+
+                & .mobile__menu {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    & .burger {
+                        & img {
+                            padding: 5px 0;
+                            border: 6px solid white;
+                            border-left: none;
+                            border-right: none;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }

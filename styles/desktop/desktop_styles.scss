@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@mixin headerButton {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid #dc4041;
+    border-radius: 25px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: min-content 1fr auto;
+    min-height: 100vh;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px 0 30px;
+    margin: 0 auto;
+}
+
+@import 'header/headerStyles.scss';
+@import 'promo/promo.scss';
+@import 'heroes/heroes.scss';
+@import 'footer/footer.scss';
+

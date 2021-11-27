@@ -1,0 +1,59 @@
+.header {
+    background-color: #0d0d0d;
+
+    & .header__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+
+        & .header__mobile {
+            display: none;
+        }
+
+
+        & .bonuses__button {
+            display: flex;
+            gap: 10px;
+
+            &__img {
+                width: 17px;
+                height: 19px;
+            }
+
+            &__text {
+                font-size: 18px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #ffaa00;
+                border-bottom: 1px dashed #ffffff;
+            }
+        }
+
+
+
+        & .header__login {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            &__country {
+                width: 25px;
+                height: 25px;
+                opacity: 0.5;
+            }
+
+            &__signIn {
+                @include headerButton();
+                background-color: #dc4041;
+            }
+
+            &__logIn {
+                @include headerButton();
+            }
+        }
+    }
+}
+
+

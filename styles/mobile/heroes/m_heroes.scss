@@ -1,0 +1,111 @@
+.heroes {
+
+
+    & .hero {
+        background-color: #121212;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 360px;
+
+            & .hero__description {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 45px;
+                padding-top: 37px;
+
+                & .hero__title {
+                    display: none;
+                }
+
+
+                & .hero__title__mobile {
+                    display: block;
+                    font-size: 42px;
+                    line-height: 25px;
+                    font-weight: 400;
+                    color: #ffffff;
+                }
+
+                & .hero__text {
+                    width: 52%;
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 400;
+                    color: #cccccc;
+                }
+
+                & .hero__button {
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    width: 200px;
+                    height: 60px;
+                    background-color: #dc4041;
+                    border-radius: 30px;
+                }
+            }
+
+
+            & .hero__img {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+
+
+
+
+        & #faq {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+
+            & .faq__title {
+                padding: 38px 0 24px;
+                font-size: 42px;
+                line-height: 50px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+
+            & .faq__list {
+                width: -webkit-fill-available;
+                font-size: 20px;
+                line-height: 25px;
+                font-weight: 700;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding-left: 40px;
+
+
+                &__choosen {
+                    color: #ffaa00;
+
+                }
+
+                &__btn {
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 300;
+                    color: #999999;
+                    margin-left: 45%;
+                }
+            }
+        }
+
+    }
+
+}
