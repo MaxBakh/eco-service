@@ -1,0 +1,46 @@
+
+    .footer {
+
+        &__content {
+
+
+
+            & .companies {
+                margin-top: 50px;
+
+                & .company {
+                    width: 30%;
+                }
+            }
+
+            & .all__rights {
+           gap: 0;
+           flex-wrap: wrap;
+           justify-content: center;
+
+                & .footer__logo {
+                    width: 100%;
+                    align-items: center;
+                    gap: 26px;
+                    margin: 30px 0 26px;
+
+                    & a{
+                        width: -webkit-fill-available;
+                        & img{
+                            width: -webkit-fill-available;
+                        }
+                    }
+
+                    & p {
+                        width: 55%;
+                        
+                    }
+                }
+
+                & .footer__text {
+                   width: 80%;
+                   margin-bottom: 40px;
+                }
+            }
+        }
+    }

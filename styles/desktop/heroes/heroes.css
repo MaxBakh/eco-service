@@ -1,0 +1,120 @@
+.heroes .hero {
+  background-color: #121212;
+}
+
+.heroes .hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 360px;
+}
+
+.heroes .hero__content .hero__description {
+  width: 50%;
+  padding-bottom: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+}
+
+.heroes .hero__content .hero__description .hero__title {
+  font-size: 50px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.heroes .hero__content .hero__description .hero__title__mobile {
+  display: none;
+}
+
+.heroes .hero__content .hero__description .hero__text {
+  width: 80%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.heroes .hero__content .hero__description .hero__button {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  background-color: #dc4041;
+  border-radius: 30px;
+}
+
+.heroes .hero__content .hero__img {
+  width: 50%;
+}
+
+.heroes .hero :nth-child(even) {
+  background-color: inherit;
+}
+
+.heroes .hero #faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.heroes .hero #faq .faq__title {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.heroes .hero #faq .faq__list {
+  width: -webkit-fill-available;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  padding-left: 40px;
+}
+
+.heroes .hero #faq .faq__list__choosen {
+  color: #ffaa00;
+}
+
+.heroes .hero #faq .faq__list__btn {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #999999;
+  margin-left: 85%;
+}
+
+.heroes :nth-child(even) {
+  background-color: #0c0c0c;
+}
+/*# sourceMappingURL=heroes.css.map */

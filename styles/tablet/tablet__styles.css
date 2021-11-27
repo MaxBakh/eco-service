@@ -1,0 +1,78 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .heroes .hero__content .hero__description {
+    padding: 32px 0;
+  }
+  .heroes .hero__content .hero__description .hero__title {
+    display: none;
+  }
+  .heroes .hero__content .hero__description .hero__title__mobile {
+    display: block;
+    font-size: 42px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .heroes .hero__content .hero__description .hero__text {
+    width: 52%;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #cccccc;
+  }
+  .heroes .hero__content .hero__description .hero__button {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    background-color: #dc4041;
+    border-radius: 30px;
+  }
+  .heroes .hero__content .hero__img {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .heroes .hero #faq .faq__list__btn {
+    margin-left: 70%;
+  }
+  .footer__content .companies {
+    margin-top: 50px;
+  }
+  .footer__content .companies .company {
+    width: 30%;
+  }
+  .footer__content .all__rights {
+    gap: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__content .all__rights .footer__logo {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 26px;
+    margin: 30px 0 26px;
+  }
+  .footer__content .all__rights .footer__logo a {
+    width: auto;
+  }
+  .footer__content .all__rights .footer__logo p {
+    width: 190px;
+  }
+  .footer__content .all__rights .footer__text {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=tablet__styles.css.map */

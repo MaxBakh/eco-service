@@ -1,0 +1,73 @@
+
+    .promo {
+        min-height: 500px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0),
+                rgba(0, 0, 0, 100)), url('../../../eco-service/images/mobile/slider_1023.png') no-repeat;
+        background-size: cover;
+
+        &__content {
+            display: flex;
+            justify-content: flex-start;
+            height: 500px;
+
+            & .promo__heading {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 48px;
+                justify-content: center;
+
+                & .heading {
+                    width: 70%;
+                    font-size: 38px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                    color: #ffffff;
+                }
+
+                & .promo__button {
+                    width: 200px;
+                    height: 60px;
+                    background-color: #dc4041;
+                    border-radius: 30px;
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+
+                & .promo__list {
+                    display: none;
+                }
+            }
+
+            & .promo__text {
+                display: none;
+            }
+        }
+
+
+    }
+
+    .promo__mobileText {
+        display: block;
+        min-height: 660px;
+        background-color: #121212;
+
+        & .promo__text {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 45%;
+            padding: 36px 0;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #cccccc;
+
+
+        }
+    }

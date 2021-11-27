@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: min-content 1fr auto;
+      grid-template-rows: -webkit-min-content 1fr auto;
+      grid-template-rows: min-content 1fr auto;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #0d0d0d;
+}
+
+.header .header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+.header .header__content .header__mobile {
+  display: none;
+}
+
+.header .header__content .bonuses__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.header .header__content .bonuses__button__img {
+  width: 17px;
+  height: 19px;
+}
+
+.header .header__content .bonuses__button__text {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffaa00;
+  border-bottom: 1px dashed #ffffff;
+}
+
+.header .header__content .header__login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.header .header__content .header__login__country {
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}
+
+.header .header__content .header__login__signIn {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #dc4041;
+  border-radius: 25px;
+  background-color: #dc4041;
+}
+
+.header .header__content .header__login__logIn {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #dc4041;
+  border-radius: 25px;
+}
+
+.promo {
+  height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black)), url("../../../eco-service/images/slider_1034.png") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), black), url("../../../eco-service/images/slider_1034.png") no-repeat;
+  background-size: cover;
+}
+
+.promo__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+.promo__content .promo__heading {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo__content .promo__heading .heading {
+  width: 70%;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__button {
+  width: 200px;
+  height: 60px;
+  background-color: #dc4041;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__list li {
+  display: inline;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.promo__content .promo__heading .promo__list li + li::before {
+  content: " - ";
+  color: #dc4041;
+  padding: 5px;
+}
+
+.promo__content .promo__text {
+  width: 50%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo__mobileText {
+  display: none;
+}
+
+.heroes .hero {
+  background-color: #121212;
+}
+
+.heroes .hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 360px;
+}
+
+.heroes .hero__content .hero__description {
+  width: 50%;
+  padding-bottom: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+}
+
+.heroes .hero__content .hero__description .hero__title {
+  font-size: 50px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.heroes .hero__content .hero__description .hero__title__mobile {
+  display: none;
+}
+
+.heroes .hero__content .hero__description .hero__text {
+  width: 80%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.heroes .hero__content .hero__description .hero__button {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  background-color: #dc4041;
+  border-radius: 30px;
+}
+
+.heroes .hero__content .hero__img {
+  width: 50%;
+}
+
+.heroes .hero :nth-child(even) {
+  background-color: inherit;
+}
+
+.heroes .hero #faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.heroes .hero #faq .faq__title {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.heroes .hero #faq .faq__list {
+  width: -webkit-fill-available;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  padding-left: 40px;
+}
+
+.heroes .hero #faq .faq__list__choosen {
+  color: #ffaa00;
+}
+
+.heroes .hero #faq .faq__list__btn {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #999999;
+  margin-left: 85%;
+}
+
+.heroes :nth-child(even) {
+  background-color: #0c0c0c;
+}
+
+.footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #121212;
+}
+
+.footer__content {
+  min-height: 440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__content .companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.footer__content .companies .company {
+  padding: 0px 20px;
+}
+
+.footer__content .all__rights {
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 150px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__content .all__rights .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 35px;
+}
+
+.footer__content .all__rights .footer__logo p {
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__content .all__rights .footer__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+  width: 50%;
+}
+/*# sourceMappingURL=desktop_styles.css.map */

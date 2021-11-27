@@ -1,0 +1,83 @@
+.promo {
+  min-height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black)), url("../../../eco-service/images/mobile/slider_1023.png") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), black), url("../../../eco-service/images/mobile/slider_1023.png") no-repeat;
+  background-size: cover;
+}
+
+.promo__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 500px;
+}
+
+.promo__content .promo__heading {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo__content .promo__heading .heading {
+  width: 70%;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__button {
+  width: 200px;
+  height: 60px;
+  background-color: #dc4041;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__list {
+  display: none;
+}
+
+.promo__content .promo__text {
+  display: none;
+}
+
+.promo__mobileText {
+  display: block;
+  min-height: 660px;
+  background-color: #121212;
+}
+
+.promo__mobileText .promo__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  width: 45%;
+  padding: 36px 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+}
+/*# sourceMappingURL=m_promo.css.map */

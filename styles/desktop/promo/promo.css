@@ -1,0 +1,87 @@
+.promo {
+  height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black)), url("../../../eco-service/images/slider_1034.png") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), black), url("../../../eco-service/images/slider_1034.png") no-repeat;
+  background-size: cover;
+}
+
+.promo__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+.promo__content .promo__heading {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo__content .promo__heading .heading {
+  width: 70%;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__button {
+  width: 200px;
+  height: 60px;
+  background-color: #dc4041;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo__content .promo__heading .promo__list li {
+  display: inline;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.promo__content .promo__heading .promo__list li + li::before {
+  content: " - ";
+  color: #dc4041;
+  padding: 5px;
+}
+
+.promo__content .promo__text {
+  width: 50%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo__mobileText {
+  display: none;
+}
+/*# sourceMappingURL=promo.css.map */

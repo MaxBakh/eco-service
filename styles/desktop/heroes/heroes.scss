@@ -1,0 +1,109 @@
+.heroes {
+
+
+    & .hero {
+        background-color: #121212;
+
+        &__content {
+            display: flex;
+            align-items: flex-end;
+            min-height: 360px;
+
+            & .hero__description {
+                width: 50%;
+                padding-bottom: 68px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 32px;
+
+                & .hero__title {
+                    font-size: 50px;
+                    line-height: 25px;
+                    font-weight: 500;
+                    color: #ffffff;
+                }
+
+                & .hero__title__mobile {
+                    display: none;
+                }
+
+                & .hero__text {
+                    width: 80%;
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 400;
+                    color: #cccccc;
+                }
+
+                & .hero__button {
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    width: 200px;
+                    height: 60px;
+                    background-color: #dc4041;
+                    border-radius: 30px;
+                }
+            }
+
+
+            & .hero__img {
+                width: 50%;
+            }
+
+        }
+
+        :nth-child(even) {
+            background-color: inherit;
+        }
+
+
+
+        & #faq {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+
+            & .faq__title {
+                font-size: 50px;
+                line-height: 50px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+
+            & .faq__list {
+                width: -webkit-fill-available;
+                font-size: 20px;
+                line-height: 25px;
+                font-weight: 700;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding-left: 40px;
+
+                &__choosen {
+                    color: #ffaa00;
+
+                }
+
+                &__btn {
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 300;
+                    color: #999999;
+                    margin-left: 85%;
+                }
+            }
+        }
+
+    }
+
+    :nth-child(even) {
+        background-color: #0c0c0c;
+    }
+
+}
